@@ -14,6 +14,7 @@ if __name__ == '__main__':
     print(d.isnull().sum())
     print(d.groupby(['Sex', 'Pclass']).Age.apply(lambda x: x.isnull().sum()) / d.groupby(['Sex', 'Pclass']).Age.count())
 
+    print(d['Age'].mean())
     d['Sex'] = np.where(d.Sex == 'female', 1, 0)
     d['Age'] = d['Age'].fillna(d['Age'].mean())
 
