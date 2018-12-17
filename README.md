@@ -30,3 +30,17 @@
 4. 基本建模&评估（Basic Modeling& Evaluation）
 5. 参数调整（Hyperparameters Tuning）
 6. 集成方法（EnsembleMethods）
+
+### 数据清洗
+
+
+
+### 探索性可视化
+
+### 特征工程
+
+### 基本建模&评估
+
+### 参数调整
+
+### 集成方法
