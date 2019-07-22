@@ -5,8 +5,8 @@ from sklearn import metrics
 from sklearn import tree
 
 if __name__ == '__main__':
-    train = pd.read_csv('train.csv')
-    test = pd.read_csv('test.csv')
+    train = pd.read_csv('input/train.csv')
+    test = pd.read_csv('input/test.csv')
     # print(titanic.head())
     # print(titanic.describe())
 
